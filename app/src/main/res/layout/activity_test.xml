@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aleks.crc.TestActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/numQuestion"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/message"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10101101010100010"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/div"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+            <TextView
+                android:id="@+id/div"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="101011010"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="15dp"
+                tools:ignore="RtlSymmetry"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/answer"
+                android:inputType="textCapWords"
+                />
+
+            <Button
+                android:id="@+id/next"
+                android:textColor="@color/white"
+                android:text="@string/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

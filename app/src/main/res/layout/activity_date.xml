@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="com.example.aleks.crc.DateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        android:id="@+id/linearLayout">
+        <EditText
+            android:id="@+id/enterSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterSurname"
+            android:layout_marginBottom="40dp"
+            android:inputType="textCapWords"
+
+            />
+
+        <EditText
+            android:id="@+id/enterGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterGroup"
+            android:inputType="textCapWords"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/finishTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="@string/finishTest"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

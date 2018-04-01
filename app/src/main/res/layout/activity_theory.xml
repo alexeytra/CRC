@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.aleks.crc.TheoryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Title1"
+                android:textSize="20sp"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                android:textAllCaps="true"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text1"
+                android:textSize="16sp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/picture1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text2"
+                android:textSize="16sp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text3"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/picture2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text4"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text5"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text6"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/picture3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text7"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/picture4"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text8"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/picture5"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text9"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>
